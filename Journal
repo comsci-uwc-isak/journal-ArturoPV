@@ -1,14 +1,6 @@
-Today we started learning some basic commands for the command line such as:
- 1)cd
- 2)ls (
- 3)cat
- 4)nano
- 5)cp
- 6)rm
- 
- We then started to solve today's challenge, which was to build a program out of a flowchart Dr. Pinzon had written on the board
- in bash.
- 
- In the meantime. Dr. Pinzon was having small interviews with each of the students check the status of everyone's IA's.
- 
- At the end of the class Dr. Pinzon wrote the program on airplay, and said that the interviews would continue next class.
+Today we struggled,
+
+We made two VPN servers (or at least tried to), the steps are further explained in the slides that will be shared in the google classroom.
+
+We think that the biggest problem has to come from the fact that we were using UDP instead of THC, which might have cause compatibility issues
+as the handshake was constantly failing.
