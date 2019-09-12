@@ -1,6 +1,12 @@
-Today we struggled,
+Today we struggled (still),
 
-We made two VPN servers (or at least tried to), the steps are further explained in the slides that will be shared in the google classroom.
+It's all documented on the slides, but essentially we tried debugging why it was that the PiVPN wasn't working.
 
-We think that the biggest problem has to come from the fact that we were using UDP instead of THC, which might have cause compatibility issues
-as the handshake was constantly failing.
+We started by uninstalling ViVPN from the pi (but didnt uninstall all dependencies so that was mistake #1)
+I then tried to re-install and lo an behold it wasn't quite working yet
+It turned out two things were going wrong
+  1) Eduardo was working on the same thing so we were basically clashing with each other
+  2) The install wasnt clean so that was messy
+We managed to figure these two things out, but then it was taking too long to generate the keys so we ended up having to shut down the pi
+
+We also went over some of the concepts needed for the IA.
