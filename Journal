@@ -1,12 +1,8 @@
-Today we struggled (still),
+The Struggle is over!
 
-It's all documented on the slides, but essentially we tried debugging why it was that the PiVPN wasn't working.
+Today we presented the learning we had made from creating (or trying to create) the PiVPN, a pretty straightforward slideshow.
 
-We started by uninstalling ViVPN from the pi (but didnt uninstall all dependencies so that was mistake #1)
-I then tried to re-install and lo an behold it wasn't quite working yet
-It turned out two things were going wrong
-  1) Eduardo was working on the same thing so we were basically clashing with each other
-  2) The install wasnt clean so that was messy
-We managed to figure these two things out, but then it was taking too long to generate the keys so we ended up having to shut down the pi
+After that we analyzed the implications of connecting to a VPN through the internet instead of directly from the local IP, and
+how the former makes it less secure.
 
-We also went over some of the concepts needed for the IA.
+We then worked on IAs.
