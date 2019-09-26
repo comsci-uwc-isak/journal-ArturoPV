@@ -1,7 +1,26 @@
-Today we started with some Coffee Script programming. I had been reluctant to install and use webstorm as I was already somewhat
-comfortable with HTML and CSS. I decided to install it this class because it seemed like it would be easier to follow the rythm
-of the class if i didn't have to translate from one language to the other. It turned out OK and I was able to have the project 
-running before the end of the 20min
+Today I found out I had destroyed an SD card.
 
-We then went on to try out a bit of writing similar to that which we'll do in the IB test, mostly in regards to how we respond
-to command terms like: explain, evaluate, describe.
+I spent most of the time trying to figure out what was wrong with the arduino, ended up realizing that the SD card had died 
+somehow (probably corrupted data).
+
+To do list:
+
+Device
+
+1) Fix SD Card
+2) Re-install Rpi
+3) Work with python on the Raspberry pi to understand all the math needed for the conversion
+4) Understand how the AD/DA board works so that I can connect the circuit to the raspberry
+5) Re-create the circuit on a breadboard (old one was lost, but shouldn't take long)
+6) How does the input reach the raspberry pi, how would that interact with the python script
+
+Device to AWS
+
+1) Re-install the IOT Core Packages
+2) Have a succesful connection between the RPi and AWS IOT Core
+3) Modify the script so that what's being sent is the output of the python script
+
+AWS
+
+1) Figure out if I need to change my RDS to Amazon's propietary Database structure because of the IOT CORE
+  1.a) Do that if need be
