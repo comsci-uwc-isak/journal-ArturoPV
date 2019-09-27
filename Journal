@@ -1,14 +1,14 @@
-Today I found out I had destroyed an SD card.
-
-I spent most of the time trying to figure out what was wrong with the arduino, ended up realizing that the SD card had died 
-somehow (probably corrupted data).
+After having destroyed the SD card, my computer managed to overheat the sd card reader (Woo!)
+dr. Pinzon gave me a new card, I installed RPI on it and started working on getting the python code to work (and understand
+how it would work) in the device.
 
 To do list:
 
 Device
 
-1) Fix SD Card
-2) Re-install Rpi
+1) Fix (get new) SD Card (DONE)
+2) Re-install Rpi (DONE)
+
 3) Work with python on the Raspberry pi to understand all the math needed for the conversion
 4) Understand how the AD/DA board works so that I can connect the circuit to the raspberry
 5) Re-create the circuit on a breadboard (old one was lost, but shouldn't take long)
