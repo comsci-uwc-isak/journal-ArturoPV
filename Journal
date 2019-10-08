@@ -1,5 +1,7 @@
-Today we mostly revised some data structure, particularly, we worked with recursion. We got a pretty interesting excercise
-which required us to divide a signal into two multiple times and then create an average out of the remaining signal.
+Today we went through the test, finished writting the aditional code needed for the 4.5 marks and worked on IA
+
+I've decided to change the sstructure of the device once again, making now into a device that uses both the raspberry pi and the arduino,
+as I can't qutie get the rPi to do the readings but there is already a library for arduino that does so.
 
 To do list:
 
@@ -7,11 +9,11 @@ Device
 
 1) Fix (get new) SD Card (DONE)
 2) Re-install Rpi (DONE)
+3) Change the OS to the modified version for readings (DONE BUT DIDN"T WORK)
+4) Understand how the AD/DA board works so that I can connect the circuit to the raspberry (DONE BUT GOING TO TO USE ARDUINO FOR THIS PART)
+5) Re-create the circuit on a breadboard (old one was lost, but shouldn't take long) (DONE)
 
-3) Change the OS to the modified version for readings
-4) Understand how the AD/DA board works so that I can connect the circuit to the raspberry
-5) Re-create the circuit on a breadboard (old one was lost, but shouldn't take long)
-6) How does the input reach the raspberry pi, how would that interact with the python script
+6) How does the input reach the raspberry pi, how would that interact with the python script (I think I might use rednode)
 
 Device to AWS
 
